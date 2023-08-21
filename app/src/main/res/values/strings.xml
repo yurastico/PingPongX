@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Ping Pong X</string>
+    <string name="message_to_share">O jogo entre %1$s e %2$s terminou %3$d a %4$d</string>
+</resources>
