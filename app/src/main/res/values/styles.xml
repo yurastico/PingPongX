@@ -1,0 +1,44 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme"
+        parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="FullScreen" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="title">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/title_text_color</item>
+    </style>
+    <style name="subtitle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/title_text_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="description">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/title_text_color</item>
+    </style>
+    <style name="home_input">
+        <item name="android:background">@drawable/home_background</item>
+        <item name="android:textColor">@color/input_text_color</item>
+        <item
+            name="android:textColorHint">@color/input_hint_text_color</item>
+    </style>
+    <style name="away_input">
+        <item name="android:background">@drawable/away_background</item>
+        <item name="android:textColor">@color/input_text_color</item>
+        <item
+            name="android:textColorHint">@color/input_hint_text_color</item>
+    </style>
+    <style name="custom_button">
+        <item name="android:background">@drawable/custom_button</item>
+
+    </style>
+</resources>
