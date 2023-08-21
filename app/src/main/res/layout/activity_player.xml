@@ -15,7 +15,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
-        android:text="PingPongX"
+        style="@style/title"
+        android:text="Ping Pong X"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,6 +26,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        style="@style/subtitle"
         android:text="Começar Partida"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"
@@ -35,6 +37,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        style="@style/description"
         android:text="Preencha os campos"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="@+id/textView2"
@@ -48,6 +51,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="24dp"
         android:ems="10"
+        style="@style/home_input"
         android:hint="Player 1"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="@+id/textView3"
@@ -60,6 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:ems="10"
+        style="@style/away_input"
         android:hint="Player 2"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="@+id/etPlayer1"
@@ -67,6 +72,7 @@
         app:layout_constraintTop_toBottomOf="@+id/etPlayer1" />
 
     <Button
+        style="@style/custom_button"
         android:id="@+id/btStart"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
